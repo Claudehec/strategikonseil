@@ -1,0 +1,15 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://strategikonseil.fr/sitemap.xml
+
+# Disallow admin and private areas
+Disallow: /dashboard/*
+Disallow: /documents/*
+Disallow: /calendar/*
+Disallow: /settings/*
+
+# Crawl-delay
+Crawl-delay: 10
